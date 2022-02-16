@@ -7,18 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C823D99727B93EC1002A4CDC /* SaloonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D99627B93EC1002A4CDC /* SaloonModel.swift */; };
+		C823D99927B9415E002A4CDC /* SaloonWebservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D99827B9415E002A4CDC /* SaloonWebservices.swift */; };
+		C823D99B27B94173002A4CDC /* SaloonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D99A27B94173002A4CDC /* SaloonViewModel.swift */; };
+		C823D99E27B9523B002A4CDC /* URLimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D99D27B9523B002A4CDC /* URLimage.swift */; };
+		C823D9A027B953C7002A4CDC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D99F27B953C7002A4CDC /* ImageLoader.swift */; };
+		C823D9A227B97D20002A4CDC /* SaloonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D9A127B97D20002A4CDC /* SaloonDetailView.swift */; };
+		C823D9A627BBC006002A4CDC /* BookingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D9A527BBC006002A4CDC /* BookingModel.swift */; };
+		C823D9A827BBC05C002A4CDC /* BookingWebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D9A727BBC05C002A4CDC /* BookingWebServices.swift */; };
+		C823D9AA27BBC243002A4CDC /* BookingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C823D9A927BBC243002A4CDC /* BookingsViewModel.swift */; };
 		C863BC3D27B78AFA002B18D0 /* saloonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC3C27B78AFA002B18D0 /* saloonApp.swift */; };
-		C863BC3F27B78AFA002B18D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC3E27B78AFA002B18D0 /* ContentView.swift */; };
+		C863BC3F27B78AFA002B18D0 /* SaloonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC3E27B78AFA002B18D0 /* SaloonListView.swift */; };
 		C863BC4127B78AFB002B18D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C863BC4027B78AFB002B18D0 /* Assets.xcassets */; };
 		C863BC4427B78AFB002B18D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C863BC4327B78AFB002B18D0 /* Preview Assets.xcassets */; };
+		C863BC7427B84168002B18D0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC7327B84168002B18D0 /* LoginView.swift */; };
+		C863BC7627B84177002B18D0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC7527B84177002B18D0 /* SignUpView.swift */; };
+		C863BC7827B8419B002B18D0 /* ForgotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC7727B8419B002B18D0 /* ForgotView.swift */; };
+		C863BC7E27B84282002B18D0 /* BookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C863BC7D27B84282002B18D0 /* BookingView.swift */; };
+		C863BC8427B8441A002B18D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C863BC8327B8441A002B18D0 /* LaunchScreen.storyboard */; };
+		C8C83CF327B8CB1A00EF5E4E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83CF227B8CB1A00EF5E4E /* Constants.swift */; };
+		C8C83CF727B8CCFD00EF5E4E /* AccountWebservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83CF627B8CCFD00EF5E4E /* AccountWebservices.swift */; };
+		C8C83CFA27B8E2B800EF5E4E /* AccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83CF927B8E2B800EF5E4E /* AccountModel.swift */; };
+		C8C83CFD27B8E37900EF5E4E /* AccountsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C83CFC27B8E37900EF5E4E /* AccountsViewModel.swift */; };
+		C8D7D45827BCF2AF003B70AB /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D7D45727BCF2AF003B70AB /* Alerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C823D99627B93EC1002A4CDC /* SaloonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonModel.swift; sourceTree = "<group>"; };
+		C823D99827B9415E002A4CDC /* SaloonWebservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonWebservices.swift; sourceTree = "<group>"; };
+		C823D99A27B94173002A4CDC /* SaloonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonViewModel.swift; sourceTree = "<group>"; };
+		C823D99C27B950E5002A4CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C823D99D27B9523B002A4CDC /* URLimage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLimage.swift; sourceTree = "<group>"; };
+		C823D99F27B953C7002A4CDC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		C823D9A127B97D20002A4CDC /* SaloonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonDetailView.swift; sourceTree = "<group>"; };
+		C823D9A527BBC006002A4CDC /* BookingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingModel.swift; sourceTree = "<group>"; };
+		C823D9A727BBC05C002A4CDC /* BookingWebServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingWebServices.swift; sourceTree = "<group>"; };
+		C823D9A927BBC243002A4CDC /* BookingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingsViewModel.swift; sourceTree = "<group>"; };
 		C863BC3927B78AFA002B18D0 /* saloon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saloon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C863BC3C27B78AFA002B18D0 /* saloonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saloonApp.swift; sourceTree = "<group>"; };
-		C863BC3E27B78AFA002B18D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C863BC3E27B78AFA002B18D0 /* SaloonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaloonListView.swift; sourceTree = "<group>"; };
 		C863BC4027B78AFB002B18D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C863BC4327B78AFB002B18D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C863BC7327B84168002B18D0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C863BC7527B84177002B18D0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		C863BC7727B8419B002B18D0 /* ForgotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotView.swift; sourceTree = "<group>"; };
+		C863BC7D27B84282002B18D0 /* BookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingView.swift; sourceTree = "<group>"; };
+		C863BC8327B8441A002B18D0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C8C83CF227B8CB1A00EF5E4E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C8C83CF627B8CCFD00EF5E4E /* AccountWebservices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountWebservices.swift; sourceTree = "<group>"; };
+		C8C83CF927B8E2B800EF5E4E /* AccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountModel.swift; sourceTree = "<group>"; };
+		C8C83CFC27B8E37900EF5E4E /* AccountsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsViewModel.swift; sourceTree = "<group>"; };
+		C8D7D45727BCF2AF003B70AB /* Alerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +90,17 @@
 		C863BC3B27B78AFA002B18D0 /* saloon */ = {
 			isa = PBXGroup;
 			children = (
-				C863BC3C27B78AFA002B18D0 /* saloonApp.swift */,
-				C863BC3E27B78AFA002B18D0 /* ContentView.swift */,
+				C823D99C27B950E5002A4CDC /* Info.plist */,
+				C8C83CF427B8CB6400EF5E4E /* Utils */,
+				C8C83CF827B8E2A200EF5E4E /* Model */,
+				C8C83CF527B8CCE500EF5E4E /* Webservices */,
+				C8C83CFB27B8E35300EF5E4E /* ViewModel */,
+				C863BC7227B84150002B18D0 /* Accounts */,
+				C863BC7F27B842A8002B18D0 /* Main */,
+				C863BC8027B842D9002B18D0 /* Orders */,
 				C863BC4027B78AFB002B18D0 /* Assets.xcassets */,
+				C863BC3C27B78AFA002B18D0 /* saloonApp.swift */,
+				C863BC8327B8441A002B18D0 /* LaunchScreen.storyboard */,
 				C863BC4227B78AFB002B18D0 /* Preview Content */,
 			);
 			path = saloon;
@@ -65,6 +112,74 @@
 				C863BC4327B78AFB002B18D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C863BC7227B84150002B18D0 /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				C863BC7327B84168002B18D0 /* LoginView.swift */,
+				C863BC7527B84177002B18D0 /* SignUpView.swift */,
+				C863BC7727B8419B002B18D0 /* ForgotView.swift */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		C863BC7F27B842A8002B18D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C863BC3E27B78AFA002B18D0 /* SaloonListView.swift */,
+				C823D9A127B97D20002A4CDC /* SaloonDetailView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C863BC8027B842D9002B18D0 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				C863BC7D27B84282002B18D0 /* BookingView.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		C8C83CF427B8CB6400EF5E4E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C8C83CF227B8CB1A00EF5E4E /* Constants.swift */,
+				C823D99D27B9523B002A4CDC /* URLimage.swift */,
+				C823D99F27B953C7002A4CDC /* ImageLoader.swift */,
+				C8D7D45727BCF2AF003B70AB /* Alerts.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C8C83CF527B8CCE500EF5E4E /* Webservices */ = {
+			isa = PBXGroup;
+			children = (
+				C8C83CF627B8CCFD00EF5E4E /* AccountWebservices.swift */,
+				C823D99827B9415E002A4CDC /* SaloonWebservices.swift */,
+				C823D9A727BBC05C002A4CDC /* BookingWebServices.swift */,
+			);
+			path = Webservices;
+			sourceTree = "<group>";
+		};
+		C8C83CF827B8E2A200EF5E4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C823D99627B93EC1002A4CDC /* SaloonModel.swift */,
+				C8C83CF927B8E2B800EF5E4E /* AccountModel.swift */,
+				C823D9A527BBC006002A4CDC /* BookingModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C8C83CFB27B8E35300EF5E4E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C8C83CFC27B8E37900EF5E4E /* AccountsViewModel.swift */,
+				C823D99A27B94173002A4CDC /* SaloonViewModel.swift */,
+				C823D9A927BBC243002A4CDC /* BookingsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C863BC8427B8441A002B18D0 /* LaunchScreen.storyboard in Resources */,
 				C863BC4427B78AFB002B18D0 /* Preview Assets.xcassets in Resources */,
 				C863BC4127B78AFB002B18D0 /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +253,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C863BC3F27B78AFA002B18D0 /* ContentView.swift in Sources */,
+				C863BC7E27B84282002B18D0 /* BookingView.swift in Sources */,
+				C823D9A627BBC006002A4CDC /* BookingModel.swift in Sources */,
+				C823D99E27B9523B002A4CDC /* URLimage.swift in Sources */,
+				C863BC7627B84177002B18D0 /* SignUpView.swift in Sources */,
+				C8C83CFA27B8E2B800EF5E4E /* AccountModel.swift in Sources */,
+				C863BC7427B84168002B18D0 /* LoginView.swift in Sources */,
+				C8D7D45827BCF2AF003B70AB /* Alerts.swift in Sources */,
+				C8C83CFD27B8E37900EF5E4E /* AccountsViewModel.swift in Sources */,
+				C823D9AA27BBC243002A4CDC /* BookingsViewModel.swift in Sources */,
+				C8C83CF727B8CCFD00EF5E4E /* AccountWebservices.swift in Sources */,
+				C863BC3F27B78AFA002B18D0 /* SaloonListView.swift in Sources */,
+				C823D9A227B97D20002A4CDC /* SaloonDetailView.swift in Sources */,
+				C823D99B27B94173002A4CDC /* SaloonViewModel.swift in Sources */,
+				C8C83CF327B8CB1A00EF5E4E /* Constants.swift in Sources */,
+				C863BC7827B8419B002B18D0 /* ForgotView.swift in Sources */,
+				C823D99927B9415E002A4CDC /* SaloonWebservices.swift in Sources */,
+				C823D9A827BBC05C002A4CDC /* BookingWebServices.swift in Sources */,
+				C823D99727B93EC1002A4CDC /* SaloonModel.swift in Sources */,
+				C823D9A027B953C7002A4CDC /* ImageLoader.swift in Sources */,
 				C863BC3D27B78AFA002B18D0 /* saloonApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,11 +406,14 @@
 				DEVELOPMENT_TEAM = 8T29484Z9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = saloon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,7 +423,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,11 +438,14 @@
 				DEVELOPMENT_TEAM = 8T29484Z9B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = saloon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +455,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
